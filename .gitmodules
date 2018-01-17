@@ -1,0 +1,3 @@
+[submodule "Caffe-AM-Softmax"]
+	path = Caffe-AM-Softmax
+	url = https://github.com/happynear/caffe-windows
