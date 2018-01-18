@@ -8,7 +8,7 @@ The paper is available as a technical report at [arXiv](https://arxiv.org/abs/18
 
 ![FeatureVis](assets/FeatureVis.png)
 
-In this paper, we propose a conceptually simple and geometrically interpretable objective function, i.e. additive margin Softmax (AM-Softmax), for deep face verification. In general, the face verification task can be viewed as a metric learning problem, so learning large-margin face features whose intra-class variation is small and inter-class difference is large is of great importance in order to achieve good performance. Recently, Large-margin Softmax and Angular Softmax have been proposed to incorporate the angular margin in a multiplicative manner. In this work, we introduce a novel additive angular margin for the Softmax loss, which is intuitively appealing and more interpretable than the existing works. We also emphasize and discuss the importance of feature normalization in the paper. Most importantly, our experiments on LFW BLUFR and MegaFace show that our additive margin softmax loss consistently performs better than the current state-of-the-art methods using the same network architecture and training dataset.
+In this work, we design a new loss function which merges the merits of both [NormFace](https://github.com/happynear/NormFace) and [SphereFace](https://github.com/wy1iu/sphereface). It is much easier to understand and train, and outperforms the previous state-of-the-art loss function (SphereFace) by 2-5% on MegaFace. 
 
 ### Citation
 If you find **AM-Softmax** useful in your research, please consider to cite:
