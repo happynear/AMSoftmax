@@ -2,6 +2,8 @@
 
 by Feng Wang, Weiyang Liu, Haijun Liu, Jian Cheng
 
+https://arxiv.org/abs/1801.05599
+
 # Training
 
 **Requirements:** My caffe version https://github.com/happynear/caffe-windows.
