@@ -30,5 +30,9 @@ The dataset used for training is CASIA-Webface. We removed 59 identities that ar
 
 All other settings are the same with SphereFace. Please refer to the details in [SphereFace's repository](https://github.com/wy1iu/sphereface).
 
+### Model and Training Log
+
+Feature normalized, s=30, m=0.35: [OneDrive](https://stduestceducn-my.sharepoint.com/:u:/g/personal/201411020102_std_uestc_edu_cn/ER-9FNdXCXtPlZAwZQwFmW0BdMVUjG8_y9IodYfoHVYXSg?e=QBG13o), [Baidu Yun](https://pan.baidu.com/s/1hulG7QW) .
+
 ### Results
 See our [arXiv technical report](https://arxiv.org/abs/1801.05599).
