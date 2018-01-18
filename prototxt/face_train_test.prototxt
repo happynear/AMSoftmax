@@ -862,7 +862,6 @@ layer {
     decay_mult: 0
   }
   scale_param {
-    min_value: 30
     filler{
       type: "constant"
       value: 30
