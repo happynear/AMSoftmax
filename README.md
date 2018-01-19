@@ -22,7 +22,7 @@ If you find **AM-Softmax** useful in your research, please consider to cite:
 
 ### Training
 
-**Requirements:** My caffe version https://github.com/happynear/caffe-windows.
+**Requirements:** My Caffe version https://github.com/happynear/caffe-windows. This version can also be compiled in Linux.
 
 The prototxt file is in `./prototxt`. The batch size is set to 256. If your GPU's memory is not sufficient enough, you may set `iter_size: 2` in `face_solver.prototxt` and `batch_size: 128` in `face_train_test.prototxt`.
 
