@@ -852,6 +852,7 @@ layer {
   bottom: "fc6"
   bottom: "label"
   top: "fc6_margin"
+  top: "margin"
   label_specific_add_param {
     iteration: 0
     bias_base: 0
