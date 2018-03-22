@@ -1,0 +1,1 @@
+Draw the 3-D features on sphere (ball). You may need some other files to run this script. Download them from [OneDrive](https://stduestceducn-my.sharepoint.com/:u:/g/personal/201411020102_std_uestc_edu_cn/EUuPHGSueDpNnWt7c0tHSa8BBGxwdLavCzU5y9mbGw4u9w?e=cITkXK) or [BaiduYun](https://pan.baidu.com/s/14wKdNGgJqWEorZA0nLkCcA).
