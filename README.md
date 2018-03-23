@@ -36,3 +36,6 @@ Feature normalized, s=30, m=0.35: [OneDrive](https://stduestceducn-my.sharepoint
 
 ### Results
 See our [arXiv technical report](https://arxiv.org/abs/1801.05599).
+
+### 3-rd Party Re-implementation
+- TensorFlow: [code](https://github.com/Joker316701882/Additive-Margin-Softmax) by [Joker316701882](https://github.com/Joker316701882).
