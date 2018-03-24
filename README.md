@@ -15,7 +15,7 @@ If you find **AM-Softmax** useful in your research, please consider to cite:
 
 	@article{Wang_2018_amsoftmax,
 	  title = {Additive Margin Softmax for Face Verification},
-	  author = {Feng Wang, Weiyang Liu, Haijun Liu, Jian Cheng},
+	  author = {Wang, Feng and Liu, Weiyang and Liu, Haijun and Cheng, Jian},
 	  journal = {arXiv preprint arXiv:1801.05599},
 	  year = {2018}
 	}
@@ -37,5 +37,5 @@ Feature normalized, s=30, m=0.35: [OneDrive](https://stduestceducn-my.sharepoint
 ### Results
 See our [arXiv technical report](https://arxiv.org/abs/1801.05599).
 
-### 3-rd Party Re-implementation
+### 3rd-Party Re-implementation
 - TensorFlow: [code](https://github.com/Joker316701882/Additive-Margin-Softmax) by [Joker316701882](https://github.com/Joker316701882).
