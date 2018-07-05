@@ -30,6 +30,9 @@ The dataset used for training is CASIA-Webface. We removed 59 identities that ar
 
 All other settings are the same with SphereFace. Please refer to the details in [SphereFace's repository](https://github.com/wy1iu/sphereface).
 
+PS: If you want to try the margin scheme described in [ArcFace](https://arxiv.org/abs/1801.07698), you may try to transplant [this
+ layer](https://github.com/happynear/caffe-windows/blob/experiment/src/caffe/layers/label_specific_margin.cu) in the `experiment` branch of my Caffe repository. `LabelSpecificHardMarginForward()` is the kernel function for `cos(theta+m)`.
+
 ### Model and Training Log
 
 Feature normalized, s=30, m=0.35: [OneDrive](https://stduestceducn-my.sharepoint.com/:u:/g/personal/201411020102_std_uestc_edu_cn/ER-9FNdXCXtPlZAwZQwFmW0BdMVUjG8_y9IodYfoHVYXSg?e=QBG13o), [Baidu Yun](https://pan.baidu.com/s/1hulG7QW) .
