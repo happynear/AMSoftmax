@@ -42,3 +42,4 @@ See our [arXiv technical report](https://arxiv.org/abs/1801.05599).
 
 ### 3rd-Party Re-implementation
 - TensorFlow: [code](https://github.com/Joker316701882/Additive-Margin-Softmax) by [Joker316701882](https://github.com/Joker316701882).
+- TensorFlow: [code](https://github.com/yule-li/CosFace) by [yule-li](https://github.com/Joker316701882).
