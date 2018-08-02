@@ -1,0 +1,37 @@
+layer {
+  name: "norm_featuremap"
+  type: "Normalize"
+  bottom: "res4_3"
+  top: "normed_featuremap"
+  top: "featuremap_norm"
+  normalize_param {
+    bp_norm: true
+  }
+}
+layer {
+  name: "GAP"
+  type: "Pooling"
+  bottom: "normed_featuremap"
+  top: "fc_pool"
+  pooling_param {
+    pool: AVE
+    global_pooling: true
+  }
+}
+layer {
+  name: "reduction_norm"
+  type: "Reduction"
+  bottom: "featuremap_norm"
+  top: "featuremap_norm_mean"
+  reduction_param{
+    operation: MEAN
+    axis: 1
+  }
+}
+layer {
+  name: "GNAP"
+  type: "ChannelScale"
+  bottom: "fc_pool"
+  bottom: "featuremap_norm_mean"
+  top: "GNAP"
+}
