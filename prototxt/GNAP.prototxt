@@ -1,4 +1,10 @@
 layer {
+  name: "res4_3_bn"
+  type: "BatchNorm"
+  bottom: "res4_3"
+  top: "res4_3"
+}
+layer {
   name: "norm_featuremap"
   type: "Normalize"
   bottom: "res4_3"
@@ -33,5 +39,11 @@ layer {
   type: "ChannelScale"
   bottom: "fc_pool"
   bottom: "featuremap_norm_mean"
+  top: "GNAP"
+}
+layer {
+  name: "GNAP_bn"
+  type: "BatchNorm"
+  bottom: "GNAP"
   top: "GNAP"
 }
